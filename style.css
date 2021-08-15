@@ -315,7 +315,14 @@ div.item:nth-of-type(5) {
 }
 
 /*media*/
-
+@media screen and (max-width: 1058px){
+  .servicos{
+    height: 700px;
+  }
+  .div-lista:nth-child(3){
+    margin-top: 32px;
+  }
+}
 @media screen and (max-width: 966px){
   .intro {
     height: 500px;
@@ -337,9 +344,18 @@ div.item:nth-of-type(5) {
     height: 400px;
   }
   .intro h1{
-    margin-top: 32px;
+    margin-top: 16px;
   }
   .servicos{
     height: 1100px;
+  }
+
+  .galeria{
+    height: 600px;
+  }
+
+  div.item {
+    width: 500px;
+    height: 400px;
   }
 }

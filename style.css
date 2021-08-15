@@ -1,0 +1,337 @@
+body{
+  background: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+  display: flex;
+  height: 89px;
+  align-items: center;
+  background:#F7CDFA;
+}
+
+
+.logo{
+  margin: 0 auto;
+  padding-left: 37px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #E2D6F6;
+  border: 3px solid #FFA4A4;
+  
+}
+
+.intro{
+  text-align: center;
+  background: #fff;
+  height: 700px;
+  background-image:url(img/baby/background.jpg) ;
+  background-size:100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1{
+  margin-top: 124px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.69);
+  color: #FFF;
+  padding-bottom: 7px;
+}
+
+.intro h1::after{
+  content: "";
+  display: block;
+  width: 480px;
+  height: 5px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.intro cite{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.69);
+  color: #FFF;
+}
+
+.intro p{
+  font-size: 1em;
+  font-weight: bold;
+  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.69);
+  color: #FFF;
+  padding-top: 8px;
+}
+
+.frase-intro{
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+/*   Servicos  */
+
+.servicos{
+height: 450px;
+background: #F7CDFA;
+}
+
+.servicos h2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 150px;
+  padding: 62px 0px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #777;
+  padding-bottom: 32px;
+}
+
+.servicos h2:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #777;
+  margin: 8px 0 ;
+}
+
+.listas{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.listas a{
+  max-width: 200px;
+  width: 200px;
+  height: 45px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: #000;
+  border: 2px solid #bc318f;
+  border-radius: 50%;
+}
+
+.listas a:hover{
+  background: #F7CDFA;
+  
+}
+
+.div-lista{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  background: #FFF;
+  border: 2px solid #bc318f;
+}
+
+.fibra{
+  font-size: 1em;
+  font-weight: bold;
+  background: url(img/baby/01.jpg);
+  background-size: cover;
+}
+
+.manutencao a{
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.gel a{
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 25px;
+}
+@media screen and (max-width: 966px){
+  .servicos{
+    height: 690px;
+    
+  }
+  .div-lista{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .servicos{
+    height: 1100px;
+  }
+
+  .div-lista{
+    display: flex;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 64px;
+  }
+  
+}
+/* galeria */
+
+.galeria{
+  height: 800px;
+  background:#fff;
+}
+
+.galeria h2{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  padding-bottom: 29px;
+}
+
+.galeria h2::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #777;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+div.item {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+div.item:nth-of-type(1) {
+  background: url(img/baby/0579c4b3-8142-4d36-9da5-bae12eb8b530.jpg);
+  background-size: cover;
+}
+div.item:nth-of-type(2) {
+  background: url(img/baby/2b61235a-80e4-45a8-bdda-9d5094be8a88.jpg);
+  
+}
+div.item:nth-of-type(3) {
+  background: url(img/baby/3c359606-7426-4f51-b71e-99324d1091d8.jpg);
+  
+}
+div.item:nth-of-type(4) {
+  background: url(img/baby/56b3e53b-5c94-47c4-a810-6f2c91b676c5.jpg);
+  background-size: cover;
+}
+div.item:nth-of-type(5) {
+  background: url(img/baby/80c1b283-bd96-4017-8c4a-ff6523d05f0d.jpg);
+  background-size: cover;
+}
+
+
+
+/* contato */
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+
+.instagran-link{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+
+  /* gradiente do instagran*/
+
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 100;
+}
+
+.fa-instagram{
+  margin-top: 16px;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  background:#F7CDFA;
+  height: 150px;
+  align-items: center;
+  z-index: 10;
+}
+.footer p{
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+  color: #000;
+}
+
+/*js*/
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+
+/* 6 CSS recomendado para a navegação */
+[data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+[data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+}
+[data-slide-nav] > button.active {
+  background: #fec454;
+}

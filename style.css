@@ -155,29 +155,7 @@ background: #F7CDFA;
   font-weight: bold;
   padding-top: 25px;
 }
-@media screen and (max-width: 966px){
-  .servicos{
-    height: 690px;
-    
-  }
-  .div-lista{
-    margin-bottom: 30px;
-  }
-}
 
-@media screen and (max-width: 768px){
-  .servicos{
-    height: 1100px;
-  }
-
-  .div-lista{
-    display: flex;
-    width: 450px;
-    height: 250px;
-    margin-bottom: 64px;
-  }
-  
-}
 /* galeria */
 
 .galeria{
@@ -334,4 +312,34 @@ div.item:nth-of-type(5) {
 }
 [data-slide-nav] > button.active {
   background: #fec454;
+}
+
+/*media*/
+
+@media screen and (max-width: 966px){
+  .intro {
+    height: 500px;
+  }
+  .intro h1{
+    margin-top: 64px;
+  }
+  .servicos{
+    height: 690px;
+    
+  }
+  .div-lista{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .intro{
+    height: 400px;
+  }
+  .intro h1{
+    margin-top: 32px;
+  }
+  .servicos{
+    height: 1100px;
+  }
 }

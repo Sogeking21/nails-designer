@@ -379,6 +379,17 @@ div.item:nth-of-type(5) {
 
   div.item {
     width: 400px;
-    height: 300px;
+    height: 400px;
+  }
+}
+@media  screen and (max-width: 576px){
+ div.item{
+   width: 300px;
+ }
+   
+}
+@media  screen and (max-width: 425px){
+  .whatsapp-link{
+    right: 70px;
   }
 }
